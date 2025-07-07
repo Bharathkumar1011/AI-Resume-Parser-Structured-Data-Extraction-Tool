@@ -74,6 +74,10 @@ Each file is converted into structured JSON. Example:
     ]
   }
 }
+```
+
+---
+
 ## 🛠 Tech Stack
 
 | Tool              | Purpose                                |
@@ -92,7 +96,11 @@ Each file is converted into structured JSON. Example:
 git clone https://github.com/Bharathkumar1011/PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool.git
 cd PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool
 pip install -r requirements.txt
-# 🔐 API Key Setup
+```
+
+---
+
+## 🔐 API Key Setup
 
 Create a `.env` file in the root folder and add:
 
@@ -102,7 +110,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
-# ▶️ Run the App
+## ▶️ Run the App
 
 ```bash
 streamlit run ParserstreamlitApp.py
@@ -113,7 +121,7 @@ Open your browser and visit:
 
 ---
 
-# 📄 Requirements
+## 📄 Requirements
 
 ```text
 python-dotenv       # For managing Groq API keys  
@@ -124,7 +132,7 @@ streamlit           # Web UI
 
 ---
 
-# 💡 Use Cases
+## 💡 Use Cases
 
 - Resume filtering and ranking systems  
 - ATS (Applicant Tracking System) input preparation  
@@ -133,8 +141,8 @@ streamlit           # Web UI
 
 ---
 
-# 📬 Contact
+## 📬 Contact
 
 Created by **Bharath Kumar**
 
-For questions or suggestions, please open an issue on the GitHub repo
+For questions or suggestions, please open an issue on the GitHub repo.
