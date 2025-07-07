@@ -74,3 +74,67 @@ Each file is converted into structured JSON. Example:
     ]
   }
 }
+## 🛠 Tech Stack
+
+| Tool              | Purpose                                |
+|-------------------|----------------------------------------|
+| **Python**        | Core language                          |
+| **Streamlit**     | Web-based interactive UI               |
+| **Groq SDK**      | Fast LLaMA 70B inference               |
+| **pdfplumber**    | PDF content extraction                 |
+| **python-dotenv** | Environment variable management        |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Bharathkumar1011/PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool.git
+cd PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool
+pip install -r requirements.txt
+# 🔐 API Key Setup
+
+Create a `.env` file in the root folder and add:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+---
+
+# ▶️ Run the App
+
+```bash
+streamlit run ParserstreamlitApp.py
+```
+
+Open your browser and visit:  
+[http://localhost:8501](http://localhost:8501)
+
+---
+
+# 📄 Requirements
+
+```text
+python-dotenv       # For managing Groq API keys  
+groq                # LLM SDK (LLaMA 70B)  
+pdfplumber          # PDF text extraction  
+streamlit           # Web UI  
+```
+
+---
+
+# 💡 Use Cases
+
+- Resume filtering and ranking systems  
+- ATS (Applicant Tracking System) input preparation  
+- HR automation tools  
+- AI-based candidate evaluation platforms
+
+---
+
+# 📬 Contact
+
+Created by **Bharath Kumar**
+
+For questions or suggestions, please open an issue on the GitHub repo
