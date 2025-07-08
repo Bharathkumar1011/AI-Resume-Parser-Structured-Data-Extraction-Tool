@@ -1,0 +1,4 @@
+python-dotenv    # for groq key caalling
+groq                    # LLM
+langchain_community  # 
+pdfplumber               # for pdf extraction
