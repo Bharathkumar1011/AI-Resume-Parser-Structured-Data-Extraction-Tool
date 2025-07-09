@@ -1,8 +1,7 @@
 # 📄 PARSER-AI: Resume Parser & Structured Data Extraction Tool
 
-**PARSER-AI** is an AI-powered tool that extracts structured data from unstructured resume PDFs using the **Groq SDK with LLaMA 70B**. It supports multi-file uploads and generates clean, structured JSON files — ideal for downstream applications like **ranking, filtering, or analytics** in hiring systems.
+PARSER-AI is a powerful resume parsing application that takes **multiple PDF files** as input and converts them into **structured JSON outputs**. It uses the Groq API powered by LLaMA 3.3 and incorporates custom, case-sensitive Python logic to accurately extract relevant fields. Designed for seamless integration into workflows like resume ranking, skill gap analysis, and personalized feedback systems, it features a clean Streamlit interface for batch uploads, data previews, and easy result downloads.
 
-A user-friendly **Streamlit** interface allows batch uploads, data previews, and downloads of parsed results.
 
 ---
 
@@ -24,7 +23,7 @@ A user-friendly **Streamlit** interface allows batch uploads, data previews, and
 ## 🧠 How It Works
 
 1. **PDF Text Extraction** using `pdfplumber`  
-2. **Prompt-Based Parsing** via Groq SDK (LLaMA 70B) with custom system/human prompts  
+2. **Parsing** via Groq API(LLaMA 3.3) with custom python logic  
 3. **Structured JSON Output** for each resume  
 4. **Streamlit App Workflow**:
    - Upload one or more PDFs  
@@ -35,15 +34,16 @@ A user-friendly **Streamlit** interface allows batch uploads, data previews, and
 
 ## 📂 Input & Output
 
-### 📤 Input
+## 📤 Input
 
-- One or more resume files in **PDF** format  
-- Example input file:  
+### - One or more resume files in **PDF** format  
+### - Example input file:  
   [`17823436.rank5.pdf`](https://github.com/Bharathkumar1011/PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool/blob/main/PARSER-APP%20INPUT/17823436.rank5.pdf)
 
-### 📥 Output
+## 📥 Output
 
-Each file is converted into structured JSON. Example:
+### - Each file is converted into structured JSON. 
+### - Example output file:  
 
 ```json
 {
@@ -84,7 +84,7 @@ Each file is converted into structured JSON. Example:
 |-------------------|----------------------------------------|
 | **Python**        | Core language                          |
 | **Streamlit**     | Web-based interactive UI               |
-| **Groq SDK**      | Fast LLaMA 70B inference               |
+| **Groq API**      | Fast LLaMA3.3 inference               |
 | **pdfplumber**    | PDF content extraction                 |
 | **python-dotenv** | Environment variable management        |
 
@@ -125,7 +125,7 @@ Open your browser and visit:
 
 ```text
 python-dotenv       # For managing Groq API keys  
-groq                # LLM SDK (LLaMA 70B)  
+groq                # LLM (API) (LLaMA 3.3)  
 pdfplumber          # PDF text extraction  
 streamlit           # Web UI  
 ```
@@ -134,7 +134,8 @@ streamlit           # Web UI
 
 ## 💡 Use Cases
 
-- Resume filtering and ranking systems  
+- Resume filtering and ranking systems
+- skill gap analysis and individual upskill feedback 
 - ATS (Applicant Tracking System) input preparation  
 - HR automation tools  
 - AI-based candidate evaluation platforms
