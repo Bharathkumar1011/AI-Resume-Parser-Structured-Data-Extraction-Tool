@@ -14,7 +14,7 @@ PARSER-AI is a powerful resume parsing application that takes **multiple PDF fil
   - Skills  
   - Education  
   - Work Experience  
-- ⚡ Fast parsing via **Groq LLaMA 70B** (direct SDK integration)  
+- ⚡ Fast parsing via **Groq API - LLaMA 3.3 70B** 
 - 💾 Outputs **clean JSON** for easy integration  
 - 🌐 Streamlit web interface for smooth interaction  
 
