@@ -1,6 +1,6 @@
 # 📄 PARSER-AI: Resume Parser & Structured Data Extraction Tool
 
-PARSER-AI is a powerful resume parsing application that takes **multiple PDF files** as input and converts them into **structured JSON outputs**. It uses the Groq API powered by LLaMA 3.3 and incorporates custom, case-sensitive Python logic to accurately extract relevant fields. Designed for seamless integration into workflows like resume ranking, skill gap analysis, and personalized feedback systems, it features a clean Streamlit interface for batch uploads, data previews, and easy result downloads.
+This tool is a powerful resume parsing application that takes **multiple PDF files** as input and converts them into **structured JSON outputs**. It uses the Groq API powered by LLaMA 3.3 and incorporates custom, case-sensitive Python logic to accurately extract relevant fields. Designed for seamless integration into workflows like resume ranking, skill gap analysis, and personalized feedback systems, it features a clean Streamlit interface for batch uploads, data previews, and easy result downloads.
 
 
 ---
@@ -93,8 +93,8 @@ PARSER-AI is a powerful resume parsing application that takes **multiple PDF fil
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Bharathkumar1011/PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool.git
-cd PARSER-AI-Resume-Parser-Structured-Data-Extraction-Tool
+git clone https://github.com/Bharathkumar1011/AI-Resume-Parser-Structured-Data-Extraction-Tool.git
+cd AI-Resume-Parser-Structured-Data-Extraction-Tool
 pip install -r requirements.txt
 ```
 
